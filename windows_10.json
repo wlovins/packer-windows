@@ -131,6 +131,7 @@
     },
     {
       "scripts": [
+        "./scripts/openssh.ps1",
         "./scripts/set-powerplan.ps1",
         "./scripts/docker/disable-windows-defender.ps1"
       ],
@@ -152,12 +153,12 @@
   ],
   "variables": {
     "autounattend": "./answer_files/10/Autounattend.xml",
-    "disk_size": "61440",
+    "disk_size": "131072",
     "disk_type_id": "1",
     "headless": "false",
-    "iso_checksum": "0278fc4638741f4a1dc85c39ed7fa76bb15fd582165f6ef036e9a9fb2f029351",
+    "iso_checksum": "b616675c82fab50cb4499e86468f69e3ac4dc5b776ae115e07454521df2780ae",
     "iso_checksum_type": "sha256",
-    "iso_url": "https://software-download.microsoft.com/download/sg/17763.107.101029-1455.rs5_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso",
+    "iso_url": "D:/src/SW_DVD9_Win_Pro_Ent_Edu_N_10_1803_64BIT_Eng_Intl_-4_MLF_X21-87131.iso",
     "restart_timeout": "5m",
     "vhv_enable": "false",
     "winrm_timeout": "6h"
